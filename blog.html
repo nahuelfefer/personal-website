@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Nahuel S. Fefer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .blog-post {
+            background: var(--white);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--accent);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .blog-post h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            border: none;
+            display: block;
+            text-align: left;
+        }
+
+        .blog-post h2 a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .blog-post h2 a:hover {
+            color: var(--secondary);
+        }
+
+        .post-meta {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .post-excerpt {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Nahuel S. Fefer</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="services.html">Legal & Consulting</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>Blog</h1>
+        <p>Thoughts on policy, community development, and urban reform</p>
+    </div>
+
+    <!-- Blog Posts -->
+    <section class="content" style="background: var(--light-gray); padding: 3rem 2rem;">
+        <div style="max-width: 900px; margin: 0 auto;">
+            <!-- Sample Blog Post 1 -->
+            <article class="blog-post">
+                <h2><a href="posts/stl-tax-incentive-reform.html">Reimagining Tax Incentives in St. Louis</a></h2>
+                <div class="post-meta">December 1, 2025 | Policy Reform</div>
+                <p class="post-excerpt">
+                    St. Louis's current tax incentive framework needs comprehensive reform. While incentives can be powerful 
+                    tools for development, our current system lacks accountability, equity considerations, and meaningful 
+                    community input. I propose a five-point framework for reform that would transform how we evaluate and 
+                    approve development subsidies.
+                </p>
+                <a href="posts/stl-tax-incentive-reform.html" class="read-more">Read more →</a>
+            </article>
+
+            <!-- Placeholder for future posts -->
+            <div style="background: var(--white); padding: 2rem; border-radius: 8px; margin-top: 2rem; text-align: center; border: 2px dashed #ccc;">
+                <p style="font-size: 1.1rem; color: #666;">More posts coming soon!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Join the Conversation</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; text-align: center;">
+                Have thoughts on these policy ideas? Want to discuss community development in St. Louis?
+            </p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h4>Email</h4>
+                    <a href="/cdn-cgi/l/email-protection#cd83aca5b8a8a1e3bee3aba8aba8bf8daaa0aca4a1e3aea2a0"><span class="__cf_email__" data-cfemail="b7f9d6dfc2d2db99c499d1d2d1d2c5f7d0dad6dedb99d4d8da">[email&#160;protected]</span></a>
+                </div>
+                <div class="contact-card">
+                    <h4>Phone</h4>
+                    <a href="tel:+17818209781">(781) 820-9781</a>
+                </div>
+                <div class="contact-card">
+                    <h4>Location</h4>
+                    <p>St. Louis, Missouri</p>
+                </div>
+            </div>
+        </div>
+    </section
